@@ -1,10 +1,17 @@
 // Dependencies
 import React from 'react';
 
+//Components
+import Header from './../components/Header';
+import Footer from './../components/Footer';
+
 const FriendsPage = () => {
   return (
     <>
-      <div>FriendsPage</div>
+      <main className="FriendsPage">
+        <Header />
+        <Footer />
+      </main>
     </>
   );
 }
