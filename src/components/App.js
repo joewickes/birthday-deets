@@ -14,7 +14,7 @@ import InfoForm from './../routes/InfoForm';
 // Styles
 import './../styles/App.css';
 
-const App = (props) => {
+const App = () => {
   return (
     <div className="App">
       <Header /> 

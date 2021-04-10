@@ -3,7 +3,17 @@ import React from 'react';
 const MainBlock = (props) => {
   return (
     <section className="main-block">
-      <h2></h2>
+      <div>
+        <h2>{props.title}</h2>
+        <br />
+        {/* 
+          props.type === 'friendslist' ? <List />
+          : props.type === 'info' ? <Info />
+          : props.type === 'infoform' ? <Form />
+        */}
+      </div>
     </section>
   );
 }
+
+export default MainBlock;
