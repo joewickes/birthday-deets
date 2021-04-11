@@ -1,4 +1,8 @@
+// Dependencies
 import React from 'react';
+
+// Styles
+import './../styles/MainBlock.css';
 
 const MainBlock = (props) => {
   return (

@@ -1,0 +1,11 @@
+.MainBlock {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.MainBlock div {
+  width: 60vw;
+  height: 50vh;
+}
